@@ -33,8 +33,6 @@ Track how mental health brands perform across AI platforms like ChatGPT and Clau
 
 ## Quick Start
 
-## Quick Start
-
 ```bash
 # Clone and setup
 git clone https://github.com/akhilesh360/ai-brand-visibility-tracker.git
@@ -85,3 +83,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 **Sai Akhilesh Veldi**  
 [GitHub](https://github.com/akhilesh360) • [LinkedIn](https://www.linkedin.com/in/saiakhileshveldi/)
+
+---
+
+**Made with ❤️ for better mental health AI visibility**
