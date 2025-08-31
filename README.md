@@ -1,4 +1,4 @@
-# 🧠 AI Brand Visibility Tracker - Mental Health Analytics
+# AI Brand Visibility Tracker - Mental Health Analytics
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
@@ -158,7 +158,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Sai Akhilesh Veldi**
 - GitHub: [@akhilesh360](https://github.com/akhilesh360)
-- LinkedIn: [Connect with me](https://linkedin.com/in/saiakhileshveldi)
+- LinkedIn: [saiakhileshveldi](https://www.linkedin.com/in/saiakhileshveldi/)
 
 ## 🙏 Acknowledgments
 
@@ -166,13 +166,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Open-source community for tools and libraries
 - Streamlit team for the amazing framework
 - AI platforms for data accessibility
-
-## 📞 Support
-
-If you have any questions or need support, please:
-- Open an issue on GitHub
-- Contact me through LinkedIn
-- Check the documentation in the code comments
 
 ---
 
