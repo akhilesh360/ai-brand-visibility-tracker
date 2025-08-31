@@ -1,0 +1,28 @@
+brands:
+- brand_id: betterhelp
+  brand_name: BetterHelp
+  synonyms:
+  - BetterHelp
+  - better help
+  owned_domains:
+  - betterhelp.com
+  - therapist.betterhelp.com
+- brand_id: talkspace
+  brand_name: Talkspace
+  synonyms:
+  - Talkspace
+  - talk space
+  owned_domains:
+  - talkspace.com
+- brand_id: headspace
+  brand_name: Headspace
+  synonyms:
+  - Headspace
+  owned_domains:
+  - headspace.com
+- brand_id: cerebral
+  brand_name: Cerebral
+  synonyms:
+  - Cerebral
+  owned_domains:
+  - cerebral.com

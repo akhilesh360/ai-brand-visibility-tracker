@@ -1,0 +1,49 @@
+answer_id,run_id,platform,prompt_id,raw_text,primary_brand,placement,sentiment,captured_at
+1,run_001,ChatGPT,p1,Synthetic answer for p1 on ChatGPT. Mentions BetterHelp and others.,Talkspace,secondary,positive,2025-08-30T16:13:15.657887
+2,run_001,ChatGPT,p2,Synthetic answer for p2 on ChatGPT. Mentions Talkspace and others.,Talkspace,primary,positive,2025-08-30T16:13:15.657887
+3,run_001,ChatGPT,p3,Synthetic answer for p3 on ChatGPT. Mentions Talkspace and others.,BetterHelp,also,positive,2025-08-30T16:13:15.657887
+4,run_001,ChatGPT,p4,Synthetic answer for p4 on ChatGPT. Mentions BetterHelp and others.,BetterHelp,primary,positive,2025-08-30T16:13:15.657887
+5,run_001,ChatGPT,p5,Synthetic answer for p5 on ChatGPT. Mentions Headspace and others.,Headspace,primary,positive,2025-08-30T16:13:15.657887
+6,run_001,ChatGPT,p6,Synthetic answer for p6 on ChatGPT. Mentions BetterHelp and others.,Talkspace,also,neutral,2025-08-30T16:13:15.657887
+7,run_001,ChatGPT,p7,Synthetic answer for p7 on ChatGPT. Mentions Talkspace and others.,Talkspace,primary,neutral,2025-08-30T16:13:15.657887
+8,run_001,ChatGPT,p8,Synthetic answer for p8 on ChatGPT. Mentions BetterHelp and others.,Cerebral,also,negative,2025-08-30T16:13:15.657887
+9,run_001,ChatGPT,p9,Synthetic answer for p9 on ChatGPT. Mentions Headspace and others.,BetterHelp,secondary,positive,2025-08-30T16:13:15.657887
+10,run_001,ChatGPT,p10,Synthetic answer for p10 on ChatGPT. Mentions Talkspace and others.,Talkspace,primary,positive,2025-08-30T16:13:15.657887
+11,run_001,ChatGPT,p11,Synthetic answer for p11 on ChatGPT. Mentions BetterHelp and others.,BetterHelp,primary,positive,2025-08-30T16:13:15.657887
+12,run_001,ChatGPT,p12,Synthetic answer for p12 on ChatGPT. Mentions Talkspace and others.,BetterHelp,also,neutral,2025-08-30T16:13:15.657887
+13,run_001,ChatGPT,p13,Synthetic answer for p13 on ChatGPT. Mentions Talkspace and others.,Talkspace,primary,positive,2025-08-30T16:13:15.657887
+14,run_001,ChatGPT,p14,Synthetic answer for p14 on ChatGPT. Mentions Cerebral and others.,Cerebral,primary,neutral,2025-08-30T16:13:15.657887
+15,run_001,ChatGPT,p15,Synthetic answer for p15 on ChatGPT. Mentions Talkspace and others.,Headspace,also,negative,2025-08-30T16:13:15.657887
+16,run_001,ChatGPT,p16,Synthetic answer for p16 on ChatGPT. Mentions BetterHelp and others.,Talkspace,secondary,positive,2025-08-30T16:13:15.657887
+17,run_001,Perplexity,p1,Synthetic answer for p1 on Perplexity. Mentions BetterHelp and others.,BetterHelp,primary,positive,2025-08-30T16:13:15.657887
+18,run_001,Perplexity,p2,Synthetic answer for p2 on Perplexity. Mentions BetterHelp and others.,BetterHelp,primary,positive,2025-08-30T16:13:15.657887
+19,run_001,Perplexity,p3,Synthetic answer for p3 on Perplexity. Mentions Talkspace and others.,Talkspace,primary,neutral,2025-08-30T16:13:15.657887
+20,run_001,Perplexity,p4,Synthetic answer for p4 on Perplexity. Mentions Talkspace and others.,Talkspace,primary,neutral,2025-08-30T16:13:15.657887
+21,run_001,Perplexity,p5,Synthetic answer for p5 on Perplexity. Mentions BetterHelp and others.,BetterHelp,primary,neutral,2025-08-30T16:13:15.657887
+22,run_001,Perplexity,p6,Synthetic answer for p6 on Perplexity. Mentions BetterHelp and others.,BetterHelp,primary,positive,2025-08-30T16:13:15.657887
+23,run_001,Perplexity,p7,Synthetic answer for p7 on Perplexity. Mentions Talkspace and others.,Talkspace,primary,neutral,2025-08-30T16:13:15.657887
+24,run_001,Perplexity,p8,Synthetic answer for p8 on Perplexity. Mentions Talkspace and others.,Talkspace,primary,positive,2025-08-30T16:13:15.657887
+25,run_001,Perplexity,p9,Synthetic answer for p9 on Perplexity. Mentions Cerebral and others.,Cerebral,primary,neutral,2025-08-30T16:13:15.657887
+26,run_001,Perplexity,p10,Synthetic answer for p10 on Perplexity. Mentions Talkspace and others.,Headspace,also,neutral,2025-08-30T16:13:15.657887
+27,run_001,Perplexity,p11,Synthetic answer for p11 on Perplexity. Mentions BetterHelp and others.,BetterHelp,primary,neutral,2025-08-30T16:13:15.657887
+28,run_001,Perplexity,p12,Synthetic answer for p12 on Perplexity. Mentions BetterHelp and others.,BetterHelp,primary,neutral,2025-08-30T16:13:15.657887
+29,run_001,Perplexity,p13,Synthetic answer for p13 on Perplexity. Mentions Talkspace and others.,Talkspace,primary,neutral,2025-08-30T16:13:15.657887
+30,run_001,Perplexity,p14,Synthetic answer for p14 on Perplexity. Mentions Cerebral and others.,Cerebral,primary,positive,2025-08-30T16:13:15.657887
+31,run_001,Perplexity,p15,Synthetic answer for p15 on Perplexity. Mentions Talkspace and others.,Talkspace,primary,neutral,2025-08-30T16:13:15.657887
+32,run_001,Perplexity,p16,Synthetic answer for p16 on Perplexity. Mentions BetterHelp and others.,Talkspace,also,positive,2025-08-30T16:13:15.657887
+33,run_001,Google AI Overviews,p1,Synthetic answer for p1 on Google AI Overviews. Mentions BetterHelp and others.,Talkspace,secondary,negative,2025-08-30T16:13:15.657887
+34,run_001,Google AI Overviews,p2,Synthetic answer for p2 on Google AI Overviews. Mentions BetterHelp and others.,Cerebral,secondary,negative,2025-08-30T16:13:15.657887
+35,run_001,Google AI Overviews,p3,Synthetic answer for p3 on Google AI Overviews. Mentions Talkspace and others.,Talkspace,primary,positive,2025-08-30T16:13:15.657887
+36,run_001,Google AI Overviews,p4,Synthetic answer for p4 on Google AI Overviews. Mentions BetterHelp and others.,BetterHelp,primary,positive,2025-08-30T16:13:15.657887
+37,run_001,Google AI Overviews,p5,Synthetic answer for p5 on Google AI Overviews. Mentions BetterHelp and others.,BetterHelp,primary,positive,2025-08-30T16:13:15.657887
+38,run_001,Google AI Overviews,p6,Synthetic answer for p6 on Google AI Overviews. Mentions Cerebral and others.,Cerebral,primary,neutral,2025-08-30T16:13:15.657887
+39,run_001,Google AI Overviews,p7,Synthetic answer for p7 on Google AI Overviews. Mentions BetterHelp and others.,Talkspace,secondary,negative,2025-08-30T16:13:15.657887
+40,run_001,Google AI Overviews,p8,Synthetic answer for p8 on Google AI Overviews. Mentions BetterHelp and others.,Cerebral,secondary,positive,2025-08-30T16:13:15.657887
+41,run_001,Google AI Overviews,p9,Synthetic answer for p9 on Google AI Overviews. Mentions BetterHelp and others.,Cerebral,secondary,neutral,2025-08-30T16:13:15.657887
+42,run_001,Google AI Overviews,p10,Synthetic answer for p10 on Google AI Overviews. Mentions BetterHelp and others.,BetterHelp,primary,positive,2025-08-30T16:13:15.657887
+43,run_001,Google AI Overviews,p11,Synthetic answer for p11 on Google AI Overviews. Mentions BetterHelp and others.,BetterHelp,primary,negative,2025-08-30T16:13:15.657887
+44,run_001,Google AI Overviews,p12,Synthetic answer for p12 on Google AI Overviews. Mentions BetterHelp and others.,Headspace,secondary,positive,2025-08-30T16:13:15.657887
+45,run_001,Google AI Overviews,p13,Synthetic answer for p13 on Google AI Overviews. Mentions BetterHelp and others.,BetterHelp,primary,positive,2025-08-30T16:13:15.657887
+46,run_001,Google AI Overviews,p14,Synthetic answer for p14 on Google AI Overviews. Mentions Cerebral and others.,Cerebral,primary,positive,2025-08-30T16:13:15.657887
+47,run_001,Google AI Overviews,p15,Synthetic answer for p15 on Google AI Overviews. Mentions BetterHelp and others.,BetterHelp,primary,neutral,2025-08-30T16:13:15.657887
+48,run_001,Google AI Overviews,p16,Synthetic answer for p16 on Google AI Overviews. Mentions Talkspace and others.,Talkspace,primary,positive,2025-08-30T16:13:15.657887

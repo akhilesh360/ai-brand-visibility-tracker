@@ -1,0 +1,17 @@
+prompt_id,text,topic,intent,funnel_stage
+p1,best online therapy for anxiety,anxiety,awareness,top_of_funnel
+p2,how to find a therapist covered by insurance,insurance_coverage,informational,mid_funnel
+p3,BetterHelp vs Talkspace for couples therapy,provider_quality,comparison,mid_funnel
+p4,Headspace vs Calm for sleep anxiety,anxiety,comparison,top_of_funnel
+p5,CBT techniques for panic attacks,cbt,informational,top_of_funnel
+p6,telepsychiatry for ADHD—how it works,telepsychiatry,informational,mid_funnel
+p7,cheapest online therapy with licensed therapist,provider_quality,purchase_intent,bottom_funnel
+p8,teen therapy online HIPAA compliant,teen_therapy,purchase_intent,bottom_funnel
+p9,crisis hotline for suicidal thoughts in the US,crisis_resources,safety,bottom_funnel
+p10,does Talkspace accept insurance,insurance_coverage,informational,mid_funnel
+p11,is BetterHelp good for anxiety,anxiety,informational,mid_funnel
+p12,is Headspace evidence-based for depression,depression,informational,mid_funnel
+p13,Cerebral medication management review,provider_quality,informational,mid_funnel
+p14,online therapy for PTSD best providers,ptsd,awareness,top_of_funnel
+p15,compare BetterHelp and Headspace for stress,anxiety,comparison,mid_funnel
+p16,HIPAA compliant teletherapy platforms,provider_quality,informational,mid_funnel
