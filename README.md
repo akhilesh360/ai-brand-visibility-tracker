@@ -121,6 +121,24 @@ Our proprietary scoring algorithm combines:
 - **K-Means Clustering**: Grouping similar user queries
 - **Topic Modeling**: Identifying conversation themes
 
+## Screenshots
+
+### AI Visibility Scorecard
+![Visibility Scorecard](screenshots/visibility-scorecard.png)
+*Brand performance comparison across AI platforms with AVS scoring*
+
+### Brand Coverage Analysis  
+![Brand Coverage](screenshots/brand-coverage.png)
+*Coverage matrix showing brand presence across mental health topics*
+
+### Citation Analysis
+![Citation Analysis](screenshots/citation-analysis.png)
+*Domain citation tracking showing trusted sources in AI responses*
+
+### AI Conversations Map
+![Conversations Map](screenshots/conversations-map.png)
+*Interactive clustering of user questions with brand presence analysis*
+
 ## Sample Analytics
 
 The platform provides insights across multiple dimensions:
