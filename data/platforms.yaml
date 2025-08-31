@@ -1,0 +1,10 @@
+platforms:
+- name: ChatGPT
+  retrieval: manual/export
+  notes: Copy answer & citations; API optional.
+- name: Perplexity
+  retrieval: manual/export
+  notes: Copy answer & citations; API optional.
+- name: Google AI Overviews
+  retrieval: manual/export
+  notes: Capture overview text & cited pages.
