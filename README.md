@@ -3,10 +3,13 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B.svg)](https://ai-brand-visibility-tracker-28juw59dgwu24whpl6shr2.streamlit.app/)
 
 > **Measure → Diagnose → Recommend → Improve**
 
 Track how mental health brands perform across AI platforms like ChatGPT and Claude. Get actionable insights to improve your brand's visibility in AI-generated responses.
+
+🚀 **[Try the Live Demo](https://ai-brand-visibility-tracker-28juw59dgwu24whpl6shr2.streamlit.app/)** | 📊 **[View Screenshots](#dashboard-preview)**
 
 ## Dashboard Preview
 
