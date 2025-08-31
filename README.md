@@ -8,35 +8,35 @@
 
 A comprehensive analytics platform that measures brand visibility across AI platforms in the mental health sector. This tool provides actionable insights for brands to optimize their presence in AI-generated content and recommendations.
 
-## 🚀 Features
+## Features
 
-### 📊 AI Visibility Scorecard
+### AI Visibility Scorecard
 - **AI Visibility Score (AVS)** - Proprietary scoring algorithm
 - Platform-specific brand performance metrics
 - Placement score analysis and citation share tracking
 - Topic coverage and mention rate analytics
 
-### 🌐 Brand Coverage Analysis
+### Brand Coverage Analysis
 - Cross-platform brand presence mapping
 - Mental health topic coverage assessment
 - Competitive positioning insights
 
-### 🔗 Authority & Trust Metrics
+### Authority & Trust Metrics
 - Domain citation analysis (owned vs. third-party)
 - AI platform trust indicators
 - Source credibility tracking
 
-### 💬 AI Conversation Intelligence
+### AI Conversation Intelligence
 - Real user question clustering and analysis
 - Topic-based conversation mapping
 - Brand presence in specific conversation themes
 
-### ✅ Actionable Content Briefs
+### Actionable Content Briefs
 - AI-generated content recommendations
 - Gap analysis and improvement strategies
 - Platform-specific optimization suggestions
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: Streamlit (Interactive Dashboard)
 - **Backend**: Python 3.8+
@@ -45,12 +45,12 @@ A comprehensive analytics platform that measures brand visibility across AI plat
 - **Visualization**: Matplotlib
 - **Data Storage**: CSV, YAML
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher
 - pip (Python package installer)
 
-## 🔧 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -69,7 +69,7 @@ A comprehensive analytics platform that measures brand visibility across AI plat
    pip install streamlit pandas matplotlib scikit-learn pathlib
    ```
 
-## 🚀 Usage
+## Usage
 
 1. **Start the Streamlit application**
    ```bash
@@ -84,7 +84,7 @@ A comprehensive analytics platform that measures brand visibility across AI plat
    - Review citation and trust metrics
    - Generate actionable content briefs
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai-brand-visibility-tracker/
@@ -107,7 +107,7 @@ ai-brand-visibility-tracker/
 └── README.md
 ```
 
-## 🎯 Key Metrics & Algorithms
+## Key Metrics & Algorithms
 
 ### AI Visibility Score (AVS)
 Our proprietary scoring algorithm combines:
@@ -121,7 +121,7 @@ Our proprietary scoring algorithm combines:
 - **K-Means Clustering**: Grouping similar user queries
 - **Topic Modeling**: Identifying conversation themes
 
-## 📊 Sample Analytics
+## Sample Analytics
 
 The platform provides insights across multiple dimensions:
 
@@ -130,7 +130,7 @@ The platform provides insights across multiple dimensions:
 - **Competitive Intelligence**: Compare brand presence against competitors
 - **Content Optimization**: Receive AI-generated briefs for improvement
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Real-time data integration with AI platforms
 - [ ] Advanced sentiment analysis
@@ -140,7 +140,7 @@ The platform provides insights across multiple dimensions:
 - [ ] Custom dashboard themes
 - [ ] Export functionality for reports
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -150,17 +150,17 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## Author
 
 **Sai Akhilesh Veldi**
 - GitHub: [@akhilesh360](https://github.com/akhilesh360)
 - LinkedIn: [saiakhileshveldi](https://www.linkedin.com/in/saiakhileshveldi/)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Mental health organizations for providing domain expertise
 - Open-source community for tools and libraries
