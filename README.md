@@ -60,6 +60,8 @@ The platform uses machine learning to analyze:
 
 📋 **[View Complete Technical Workflow](WORKFLOW.md)** - Detailed system architecture and step-by-step process
 
+🎨 **[Visual Process Flow](VISUAL_WORKFLOW.md)** - Confluence-style diagrams and flowcharts
+
 ## Tech Stack
 
 Python • Streamlit • Pandas • Scikit-learn • Matplotlib
