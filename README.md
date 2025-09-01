@@ -58,6 +58,8 @@ The platform uses machine learning to analyze:
 - **Topic coverage** in mental health conversations
 - **User question clustering** with TF-IDF and K-Means
 
+📋 **[View Complete Technical Workflow](WORKFLOW.md)** - Detailed system architecture and step-by-step process
+
 ## Tech Stack
 
 Python • Streamlit • Pandas • Scikit-learn • Matplotlib
