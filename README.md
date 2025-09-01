@@ -5,12 +5,13 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B.svg)](https://ai-brand-visibility-tracker-28juw59dgwu24whpl6shr2.streamlit.app/)
 
+
+## DEMO - **[https://ai-brand-visibility-tracker-28juw59dgwu24whpl6shr2.streamlit.app/](https://ai-brand-visibility-tracker-28juw59dgwu24whpl6shr2.streamlit.app/)**
 ## System Workflow
 
 ![AI Brand Visibility Tracker Workflow](images/workflow-diagram.png)
 *Complete system architecture from data input to business insights*
 
-## DEMO - **[https://ai-brand-visibility-tracker-28juw59dgwu24whpl6shr2.streamlit.app/](https://ai-brand-visibility-tracker-28juw59dgwu24whpl6shr2.streamlit.app/)**
 
 > **Measure → Diagnose → Recommend → Improve**
 
