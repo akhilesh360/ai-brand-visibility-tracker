@@ -25,6 +25,11 @@ Track how mental health brands perform across AI platforms like ChatGPT and Clau
 ![Conversations Map](screenshots/conversations-map.png)
 *Analyze real user questions and brand mentions by theme*
 
+## System Workflow
+
+![AI Brand Visibility Tracker Workflow](images/workflow-diagram.png)
+*Complete system architecture from data input to business insights*
+
 ## Key Features
 
 - **AI Visibility Score (AVS)** - Proprietary algorithm tracking brand performance
@@ -57,10 +62,6 @@ The platform uses machine learning to analyze:
 - **Citation patterns** across trusted domains  
 - **Topic coverage** in mental health conversations
 - **User question clustering** with TF-IDF and K-Means
-
-📋 **[View Complete Technical Workflow](WORKFLOW.md)** - Detailed system architecture and step-by-step process
-
-🎨 **[Visual Process Flow](VISUAL_WORKFLOW.md)** - Confluence-style diagrams and flowcharts
 
 ## Tech Stack
 
