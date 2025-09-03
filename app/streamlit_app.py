@@ -54,12 +54,13 @@ st.caption("Brand performance across AI platforms using our proprietary scoring 
 platform = st.selectbox("Select Platform", sorted(scores["platform"].unique()))
 platform_data = scores[scores["platform"] == platform]
 
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(figsize=(8, 4))
 bars = ax.bar(platform_data["brand"], platform_data["AVS"], 
               color=[BRAND_COLORS.get(b, "#3498db") for b in platform_data["brand"]])
 ax.set_ylabel("AI Visibility Score")
 ax.set_title(f"Brand Performance on {platform}")
 plt.xticks(rotation=45)
+plt.tight_layout()
 st.pyplot(fig)
 
 # Show detailed scores
@@ -117,12 +118,13 @@ cluster_data = merged[merged["prompt_id"].isin(cluster_prompt_ids)]
 if len(cluster_data) > 0:
     brand_presence = cluster_data.groupby("primary_brand").size() / len(cluster_data)
     
-    fig2, ax2 = plt.subplots()
+    fig2, ax2 = plt.subplots(figsize=(8, 4))
     ax2.bar(brand_presence.index, brand_presence.values,
             color=[BRAND_COLORS.get(b, "#3498db") for b in brand_presence.index])
     ax2.set_title(f"Brand Presence in Cluster {selected_cluster}")
     ax2.set_ylabel("Presence Rate")
     plt.xticks(rotation=45)
+    plt.tight_layout()
     st.pyplot(fig2)
 
 st.divider()
