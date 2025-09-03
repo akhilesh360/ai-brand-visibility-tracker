@@ -113,4 +113,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-**Made with ❤️ to help improve mental health**
+**Made with ❤️ to help improve mental health awareness**
