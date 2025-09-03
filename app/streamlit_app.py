@@ -25,7 +25,7 @@ st.caption("Measure → Diagnose → Recommend → Improve")
 # Data paths
 DATA_DIR = Path("data")
 ANS = DATA_DIR / "sample_run" / "answers.csv"
-CIT = DATA_DIR / "sample_run" / "citations.csv"  
+CIT = DATA_DIR / "sample_run" / "citations.csv"
 PRM = DATA_DIR / "prompts.csv"
 
 @st.cache_data
@@ -54,18 +54,27 @@ st.caption("Brand performance across AI platforms using our proprietary scoring 
 platform = st.selectbox("Select Platform", sorted(scores["platform"].unique()))
 platform_data = scores[scores["platform"] == platform]
 
-fig, ax = plt.subplots(figsize=(7, 4))
-bars = ax.bar(platform_data["brand"], platform_data["AVS"], 
-              color=[BRAND_COLORS.get(b, "#3498db") for b in platform_data["brand"]])
-ax.set_ylabel("AI Visibility Score")
-ax.set_title(f"Brand Performance on {platform}")
-plt.xticks(rotation=45)
+# Medium chart
+fig, ax = plt.subplots(figsize=(6, 3.3), dpi=110)
+bars = ax.bar(
+    platform_data["brand"], 
+    platform_data["AVS"], 
+    color=[BRAND_COLORS.get(b, "#3498db") for b in platform_data["brand"]]
+)
+ax.set_ylabel("AI Visibility Score", fontsize=11)
+ax.set_title(f"Brand Performance on {platform}", fontsize=16, pad=8)
+ax.tick_params(axis="x", labelrotation=0, labelsize=10)
+ax.tick_params(axis="y", labelsize=10)
+ax.margins(x=0.05)
 plt.tight_layout()
 st.pyplot(fig, use_container_width=False)
 
-# Show detailed scores
-st.dataframe(platform_data[["brand", "placement_score", "citation_share", 
-                           "mention_rate", "topic_coverage", "AVS"]].round(3))
+# Compact dataframe
+st.dataframe(
+    platform_data[["brand", "placement_score", "citation_share", 
+                   "mention_rate", "topic_coverage", "AVS"]].round(3),
+    height=240
+)
 
 st.divider()
 
@@ -74,17 +83,17 @@ st.header("Topic Coverage Map")
 st.caption("Which brands dominate specific mental health topics")
 
 topic_coverage = merged.groupby(["topic", "primary_brand"]).size().unstack(fill_value=0)
-st.dataframe(topic_coverage)
+st.dataframe(topic_coverage, height=260)
 
 st.divider()
 
-# Citation Analysis  
+# Citation Analysis
 st.header("Citation Analysis")
 st.caption("Domains that AI platforms trust and cite most frequently")
 
 citation_data = citations.merge(merged[["answer_id", "primary_brand"]], on="answer_id", how="left")
 domain_counts = citation_data.groupby(["primary_brand", "domain"]).size().reset_index(name="citations")
-st.dataframe(domain_counts.sort_values("citations", ascending=False))
+st.dataframe(domain_counts.sort_values("citations", ascending=False), height=260)
 
 st.divider()
 
@@ -118,12 +127,17 @@ cluster_data = merged[merged["prompt_id"].isin(cluster_prompt_ids)]
 if len(cluster_data) > 0:
     brand_presence = cluster_data.groupby("primary_brand").size() / len(cluster_data)
     
-    fig2, ax2 = plt.subplots(figsize=(7, 4))
-    ax2.bar(brand_presence.index, brand_presence.values,
-            color=[BRAND_COLORS.get(b, "#3498db") for b in brand_presence.index])
-    ax2.set_title(f"Brand Presence in Cluster {selected_cluster}")
-    ax2.set_ylabel("Presence Rate")
-    plt.xticks(rotation=45)
+    fig2, ax2 = plt.subplots(figsize=(6, 3.3), dpi=110)
+    ax2.bar(
+        brand_presence.index, 
+        brand_presence.values,
+        color=[BRAND_COLORS.get(b, "#3498db") for b in brand_presence.index]
+    )
+    ax2.set_title(f"Brand Presence in Cluster {selected_cluster}", fontsize=16, pad=8)
+    ax2.set_ylabel("Presence Rate", fontsize=11)
+    ax2.tick_params(axis="x", labelrotation=0, labelsize=10)
+    ax2.tick_params(axis="y", labelsize=10)
+    ax2.margins(x=0.05)
     plt.tight_layout()
     st.pyplot(fig2, use_container_width=False)
 
