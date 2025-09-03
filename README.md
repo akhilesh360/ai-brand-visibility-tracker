@@ -109,7 +109,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## Author
 
 **Sai Akhilesh Veldi**  
-[GitHub](https://github.com/akhilesh360) • [LinkedIn](https://www.linkedin.com/in/saiakhileshveldi/) • [Portfolio](https://akhilesh360.github.io/SAIPORTFOLIO/)) 
+[GitHub](https://github.com/akhilesh360) • [LinkedIn](https://www.linkedin.com/in/saiakhileshveldi/) • [Portfolio](https://akhilesh360.github.io/SAIPORTFOLIO/)
 
 ---
 
