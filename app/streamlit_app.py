@@ -54,7 +54,7 @@ st.caption("Brand performance across AI platforms using our proprietary scoring 
 platform = st.selectbox("Select Platform", sorted(scores["platform"].unique()))
 platform_data = scores[scores["platform"] == platform]
 
-fig, ax = plt.subplots(figsize=(8, 4))
+fig, ax = plt.subplots(figsize=(4, 4))
 bars = ax.bar(platform_data["brand"], platform_data["AVS"], 
               color=[BRAND_COLORS.get(b, "#3498db") for b in platform_data["brand"]])
 ax.set_ylabel("AI Visibility Score")
