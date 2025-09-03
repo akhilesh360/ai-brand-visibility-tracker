@@ -33,12 +33,14 @@ Track how mental health brands perform across AI platforms like ChatGPT and Clau
 
 ## Key Features
 
-- **AI Visibility Score (AVS)** - Proprietary algorithm tracking brand performance
-- **Cross-platform Analysis** - Monitor presence across ChatGPT, Claude, and more
-- **Topic Coverage Mapping** - See which mental health topics you dominate
-- **Citation Tracking** - Understand which domains AI trusts most
-- **Question Clustering** - Analyze real user queries by theme
-- **Actionable Briefs** - Get specific recommendations to improve visibility
+- **AI Visibility Score (AVS)** - Proprietary weighted algorithm (45% placement + 30% citations + 20% coverage + 5% mentions)
+- **Cross-platform Analysis** - Monitor brand presence across ChatGPT, Claude, Perplexity
+- **Interactive Dashboard** - Professional charts with optimized sizing for executive presentations
+- **Topic Coverage Mapping** - Identify which mental health topics your brand dominates
+- **Citation Authority Tracking** - Understand which domains AI platforms trust most
+- **ML-Powered Question Clustering** - Analyze real user queries with TF-IDF and K-Means
+- **Strategic Content Briefs** - Get AI-generated recommendations to improve visibility
+- **Compact Data Views** - Streamlined tables with controlled heights for clean presentation
 
 ## Quick Start
 
@@ -50,7 +52,7 @@ python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # Install and run
-pip install streamlit pandas matplotlib scikit-learn
+pip install -r requirements.txt
 streamlit run app/streamlit_app.py
 ```
 
@@ -59,14 +61,30 @@ Open `http://localhost:8501` to explore the dashboard.
 ## How It Works
 
 The platform uses machine learning to analyze:
-- **Placement scores** in AI responses
-- **Citation patterns** across trusted domains  
-- **Topic coverage** in mental health conversations
-- **User question clustering** with TF-IDF and K-Means
+- **Placement scores** in AI responses (45% weight)
+- **Citation patterns** across trusted domains (30% weight)
+- **Topic coverage** in mental health conversations (20% weight)
+- **Brand mention rates** in AI outputs (5% weight)
+- **User question clustering** with TF-IDF vectorization and K-Means
 
 ## Tech Stack
 
-Python • Streamlit • Pandas • Scikit-learn • Matplotlib
+### Core Technologies
+- **Python 3.8+** - Backend language
+- **Streamlit** - Interactive web dashboard
+- **Pandas** - Data manipulation and analysis
+- **Matplotlib** - Professional chart visualization with DPI optimization
+- **Scikit-learn** - Machine learning (TF-IDF, K-Means clustering)
+
+### Key Libraries
+- **TfidfVectorizer** - Text feature extraction for question analysis
+- **KMeans** - Unsupervised clustering of user queries
+- **Pathlib** - Modern file path handling
+
+### Architecture
+- **Modular Pipeline** - Separate scoring and brief generation modules
+- **Caching System** - Streamlit data caching for performance
+- **Professional Styling** - Custom chart formatting and brand colors
 
 ## Project Structure
 
